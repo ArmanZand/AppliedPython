@@ -7,7 +7,7 @@ Disclaimer: This project is for educational and experimental uses and is not sui
 ## Project Overview
 
 This project contains:
-- Methods to perform Shamir Secret Sharing via Matrices or Polynomials (Lagrange Interpolation).
+- Methods to perform Bivariate / Univariate Shamir Secret Sharing via Matrices or Polynomials (Lagrange Interpolation).
 - Harn-Hsu Asymmetric Bivariate Secret Sharing
 
 To Upload:
