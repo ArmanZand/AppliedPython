@@ -9,6 +9,7 @@ Disclaimer: This project is for educational and experimental uses and is not sui
 This project contains:
 - Methods to perform Shamir Secret Sharing via Matrices or Polynomials (Lagrange Interpolation).
 - Harn-Hsu Asymmetric Bivariate Secret Sharing
+
 To Upload:
 - Tassar Multi-partite Secret Sharing
 - Schnorr's Signature Scheme
