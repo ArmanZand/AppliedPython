@@ -84,9 +84,7 @@ class matrix_utils:
         result_matrix =  [[0] * _matrix.height for _ in range(_matrix.width)]
         for i in range(_matrix.width):
             for j in range(_matrix.height):
-                
                 result_matrix[i][j] = _matrix.elements[j][i]
-                #result_matrix[j][i] = _matrix.elements[i][j]
         return matrix(result_matrix, _matrix.p)
     @classmethod
     def det2x2(cls, _matrix: matrix) -> int:

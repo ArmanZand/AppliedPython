@@ -37,7 +37,6 @@ print("Coefficient matrix multiplied by Vandermonde matrix:")
 print(biv)
 print("Coefficient recovery by matrix inverse of Vandermonde:")
 print(biv * V1.inv())
-#print(matrix_utils.V([0,1,2],p).inv() * matrix_utils.V([0,1,2],p))
 
 print()
 
