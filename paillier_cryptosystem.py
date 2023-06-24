@@ -27,13 +27,7 @@ class utilities:
         x = 1
         if (m == 1) : 
                 return 0
-        tmp1 = a
-        tmp2= m
         while (a > 1) : 
-                if(m == 0):
-                     print(f"a: {tmp1} m: {tmp2}")
-                     
-                
                 q = a // m 
                 t = m 
                 m = a % m 
