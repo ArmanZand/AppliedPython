@@ -90,9 +90,7 @@ class PaillierSystem:
         return (cipher1 * cipher2) % self.n2
     def HSub(self, cipher1: int, cipher2: int) -> int:
         '''Subtract two encrypted values and return the encrypted result.'''
-        #return self.HMult(cipher1, -cipher2)
         return (cipher1 * pow(cipher2, self.n - 1, self.n2)) % self.n2
-        #return (cipher1 * utilities.modular_inverse(cipher2, self.n2)) % self.n2
     def HMult(self, cipher1: int, coef: int) -> int:
         '''Multiply an encrypted value by a scalar and return the encrypted result.'''
         return pow(cipher1, coef, self.n2)
