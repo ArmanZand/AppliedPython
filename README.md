@@ -1,6 +1,6 @@
 # AppliedPython
 
-A collection of cryptographic schemes and primitives implemented in python. 
+A collection of cryptographic schemes and primitives implemented in python 3. 
 
 Disclaimer: This project is for educational and experimental uses and is not suitable for production.
 
@@ -9,6 +9,7 @@ Disclaimer: This project is for educational and experimental uses and is not sui
 This project contains:
 - Methods to perform Shamir Secret Sharing via Matrices or Polynomials (Lagrange Interpolation).
 - Harn-Hsu Asymmetric Bivariate Secret Sharing
+- Paillier Homomorphic Cryptosystem 
 
 To Upload:
 - Tassar Multi-partite Secret Sharing
@@ -20,3 +21,4 @@ To Upload:
 - Basic Blakley Secret Sharing
 - Eckhard Sylvester Bivariate Secret Sharing
 - Fiat-Shamir Non/Interactive Zero-Knowledge Proof
+- Fast Private Set Intersection with Homomorphic Encryption
