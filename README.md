@@ -15,7 +15,6 @@ To Upload:
 - Tassar Multi-partite Secret Sharing
 - Schnorr's Signature Scheme
 - Proactive Secret Sharing
-- Paillier Homomorphic Encryption
 - Elliptic Curve Cryptography
 - ElGamal Signature Scheme
 - Basic Blakley Secret Sharing
