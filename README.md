@@ -6,19 +6,21 @@ Disclaimer: This project is for educational and experimental uses and is not sui
 
 ## Project Overview
 
-This project contains:
-- Methods to perform Bivariate / Univariate Shamir Secret Sharing via Matrices or Polynomials (Lagrange Interpolation).
-- Harn-Hsu Asymmetric Bivariate Secret Sharing
-- Paillier Homomorphic Cryptosystem 
-
-To Upload:
-- Tassar Multi-partite Secret Sharing
-- Schnorr's Signature Scheme
-- Proactive Secret Sharing
-- Paillier Homomorphic Encryption
-- Elliptic Curve Cryptography
-- ElGamal Signature Scheme
-- Basic Blakley Secret Sharing
-- Eckhard Sylvester Bivariate Secret Sharing
-- Fiat-Shamir Non/Interactive Zero-Knowledge Proof
-- Fast Private Set Intersection with Homomorphic Encryption
+This project contains (Unmarked remain to be uploaded):
+- Secret Sharing
+    - [x] Polynomial (Lagrange Interpolation) /Matrix Shamir Secret Sharing
+    - [x] Polynomial/Matrix Bivariate Secret Sharing
+    - [x] Harn-Hsu Asymmetric Bivariate Secret Sharing
+    - [ ] Tassar Mutli-Partite Secret Sharing
+    - [ ] Proactive Secret Sharing
+    - [ ] Basic Blakley Secret Sharing
+    - [ ] Eckhard Sylvester Bivariate Secret Sharing
+- Digital Signatures
+    - [x] ElGamal Signature Scheme
+    - [ ] Schnorr's Signature Scheme
+    - [ ] Elliptic Curve Digital Signature Algorithm (ECDSA)
+- Homomorphic Encryption
+    - [x] Paillier Cryptosystem
+    - [ ] Fast Private Set Intersection with Full Homomorphic Encryption (FHE)
+- Zero-Knowledge Proofs
+    - [ ] Fiat-Shamir Non / Interactive Identity Scheme

@@ -50,7 +50,7 @@ class utilities:
         '''Finds and returns the Lowest Common Multiple (LCM) of integers 'a' and 'b'.'''
         return a * b // cls.gcd(a,b)
 
-class PaillierSystem:
+class paillier_system:
     def __init__(self, p: int, q: int, g: int) -> None:
         #Euler's Totient Function, checks prime integers 'p' and 'q' are relatively prime
         assert(utilities.gcd(p * q, (p-1) * (q - 1)) == 1)

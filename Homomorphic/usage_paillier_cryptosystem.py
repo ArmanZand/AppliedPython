@@ -8,7 +8,7 @@ from paillier_cryptosystem import *
 p = 23 
 q = 31
 g = 5
-ps = PaillierSystem(p, q, g)
+ps = paillier_system(p, q, g)
 print("Choose two values:")
 p1 = 20
 p2 = 4
