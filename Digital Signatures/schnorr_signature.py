@@ -125,7 +125,7 @@ class schnorr_signature_scheme:
         r = utilities.secure_next_int(0, self.q - 1)
         x = pow(self.a, r, self.p)
         e = utilities.hash_message(f"{messageM}{x}")
-        y = (r + self.s * e) % self.p
+        y = (r + self.s * e) % self.q
         return message(messageM, schnorr_signature(self.v, e, y, self.a, self.p))
 
 class schnorr_signature:

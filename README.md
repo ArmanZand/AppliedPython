@@ -23,4 +23,4 @@ This project contains (Unmarked remain to be uploaded):
     - [x] Paillier Cryptosystem
     - [ ] Fast Private Set Intersection with Full Homomorphic Encryption (FHE)
 - Zero-Knowledge Proofs
-    - [ ] Fiat-Shamir Non / Interactive Identity Scheme
+    - [x] Fiat-Shamir Non-Interactive Identity Scheme
