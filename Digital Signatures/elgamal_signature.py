@@ -78,9 +78,9 @@ class message:
 Public Key   | {}
 Verifiable   | {}""".format(self.message, self.publicKey, self.signature.verify(self.message, self.publicKey))
 
-class elgamal_signature:
+class elgamal_signature_scheme:
     def __init__(self, privateKeyX: int, p: int = pow(2,607) - 1) -> None:
-        '''Prepares parameters for digitally signing a message.'''
+        '''Prepares parameters for digitally signing a message. An example prime 'p' is pre-set.'''
         self.primeP = p
         self.generator = 5
         self.x = privateKeyX

@@ -4,7 +4,7 @@ from elgamal_signature import *
 p = pow(2,607) - 1
 #private key
 prv_key = 5999998
-eg = elgamal_signature(prv_key, p)
+eg = elgamal_signature_scheme(prv_key, p)
 
 print(f"Private Key: {eg.x}\nPublic Key: {eg.y}")
 

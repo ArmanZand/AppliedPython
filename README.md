@@ -17,7 +17,7 @@ This project contains (Unmarked remain to be uploaded):
     - [ ] Eckhard Sylvester Bivariate Secret Sharing
 - Digital Signatures
     - [x] ElGamal Signature Scheme
-    - [ ] Schnorr's Signature Scheme
+    - [x] Schnorr's Signature Scheme
     - [ ] Elliptic Curve Digital Signature Algorithm (ECDSA)
 - Homomorphic Encryption
     - [x] Paillier Cryptosystem
