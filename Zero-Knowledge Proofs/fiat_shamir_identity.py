@@ -56,21 +56,6 @@ class utilities:
             if (result <= i_range): break
         result += min
         return result
-    @classmethod
-    def get_random_prime(cls, bit_length: int, threads: int = multiprocessing.cpu_count()) -> int:
-        '''Finds and returns a probable prime with a given bit length, thread number can be set to adjust rate of prime testing.'''
-        #Approximate number of tries (Divided by 2 because only odd integers are in the work space):
-        #For bit length N : (N * ln(2)) / 2
-        #For integer x : ln(x) / 2
-        if (threads < 1):
-            raise Exception("Must have at least one thread to perform this task.")
-        candidate = utilities.secure_bits(bit_length) | 1
-        with multiprocessing.Pool(processes=threads) as pool:
-            while True:
-                results = pool.map(cls.test_prime_alt, [(candidate + (2 * i )) for i in range(threads)])
-                if any(results):
-                    return candidate
-                candidate += 2 * threads
 
 class fiat_shamir_proof:
     def __init__(self, g, t, r, p) -> None:
