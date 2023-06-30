@@ -1,4 +1,4 @@
-from ecc import *
+from ecdsa import *
 #secp256r1 parameters
 p = 0xffffffff00000001000000000000000000000000ffffffffffffffffffffffff
 n = 0xffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc632551
