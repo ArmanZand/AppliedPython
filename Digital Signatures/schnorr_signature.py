@@ -4,7 +4,7 @@ import hashlib
 import multiprocessing
 class utilities:
     @classmethod
-    def test_prime(self, candidate: int, tests = 8) -> bool:
+    def test_prime(cls, candidate: int, tests = 8) -> bool:
         '''Miller-Rabin test to determine likelyhood of given integer being prime.'''
         n = candidate
         if n == 1:
@@ -18,7 +18,7 @@ class utilities:
             r += 1
             s //= 2
         for _ in range(tests):
-            a = self.secure_next_int(2, n - 2)
+            a = cls.secure_next_int(2, n - 2)
             x = pow(a, s, n)
             if x == 1 or x == n - 1:
                 continue
@@ -30,7 +30,7 @@ class utilities:
                 return False
         return True
     @classmethod
-    def test_prime_alt(self, candidate: int, tests = 8) -> bool:
+    def test_prime_alt(cls, candidate: int, tests = 8) -> bool:
         '''Miller-Rabin test for larger integers'''
         n = candidate
         r, s = 0, n - 1
@@ -38,7 +38,7 @@ class utilities:
             r += 1
             s //= 2
         for _ in range(tests):
-            a = self.secure_next_int(2, n - 2)
+            a = cls.secure_next_int(2, n - 2)
             x = pow(a, s, n)
             if x == 1 or x == n - 1:
                 continue

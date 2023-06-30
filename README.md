@@ -18,7 +18,7 @@ This project contains (Unmarked remain to be uploaded):
 - Digital Signatures
     - [x] ElGamal Signature Scheme
     - [x] Schnorr's Signature Scheme
-    - [ ] Elliptic Curve Digital Signature Algorithm (ECDSA)
+    - [x] Elliptic Curve Digital Signature Algorithm (ECDSA)
 - Homomorphic Encryption
     - [x] Paillier Cryptosystem
     - [ ] Fast Private Set Intersection with Full Homomorphic Encryption (FHE)
