@@ -12,9 +12,8 @@ This project contains (Unmarked remain to be uploaded):
     - [x] Polynomial/Matrix Bivariate Secret Sharing
     - [x] Harn-Hsu Asymmetric Bivariate Secret Sharing
     - [ ] Tassar Mutli-Partite Secret Sharing
-    - [ ] Proactive Secret Sharing
+    - [x] Proactive Secret Sharing
     - [ ] Basic Blakley Secret Sharing
-    - [ ] Eckhard Sylvester Bivariate Secret Sharing
 - Digital Signatures
     - [x] ElGamal Signature Scheme
     - [x] Schnorr's Signature Scheme
